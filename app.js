@@ -35,10 +35,12 @@ app.get("/compose", function(req, res){
 
 
 app.post("/compose", function(req, res){
-  let submittedText = req.body.postTitle;
-  console.log(submittedText);
+  const post = {
+    title: req.body.postTitle,
+    content: req.body.postBody
+  };
 
-  res.redirect("/");
+  res.redirect("/compose");
 });
 
 
