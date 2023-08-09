@@ -1,6 +1,7 @@
 <% include partials/header.ejs %>
 
 <h1>Home</h1>
+<h3> <%= homeStartingTitle %></h3>
 <p> <%= homeStartingContent %> </p>
 <% posts.forEach(function(post){ %>
     <h2> <%= post.title %> </h2>

@@ -1,0 +1,14 @@
+<% include partials/header.ejs %>
+
+<h1>Omission</h1>
+<% posts.forEach(function(post){ %>
+    <div>
+        <h3> <%= post.title %> </h3>
+        <form action="/omission" method="post">
+            <input type="hidden" name="postTitle" value="<%= post.title %>">
+            <button type="submit">Remove</button>
+        </form>
+    </div>
+<% }) %>
+
+<% include partials/footer.ejs %>
