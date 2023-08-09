@@ -19,7 +19,7 @@ const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rho
 
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/postsDB", {
+mongoose.connect("mongodb+srv://blogWebsiteUser:v1JRKfEBqKcq11t3@cluster0.2b8nwl0.mongodb.net/", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
