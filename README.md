@@ -2,14 +2,6 @@
 
 Welcome to the Dynamic Blog Website repository! This project showcases a web application built with Express.js and MongoDB, designed to create, display, and manage blog posts.
 
-## Table of Contents
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Endpoints](#endpoints)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Description
 This web application allows users to:
 - View a homepage with a glimpse into the author's coding journey.
