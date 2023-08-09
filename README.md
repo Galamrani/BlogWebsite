@@ -1,6 +1,8 @@
 # Dynamic Blog Website
 
 Welcome to the Dynamic Blog Website repository! This project showcases a web application built with Express.js and MongoDB, designed to create, display, and manage blog posts.
+Visit the [Blog](https://curious-tick-cloak.cyclic.app/) website.
+
 
 ## Description
 This web application allows users to:
