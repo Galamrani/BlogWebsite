@@ -16,16 +16,16 @@
 }
 
 .footer-padding {
-	padding-bottom: 60px;
+	padding-bottom: 100px;
 }
 
 .footer {
-	position: absolute;
+    position: fixed;
 	text-align: center;
 	bottom: 0;
 	width: 100%;
 	height: 60px;
-	background-color: #1abc9c;
+    background-color: rgba(26, 188, 156, 0.6);
 }
 
 .footer p {
