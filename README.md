@@ -30,11 +30,11 @@ The codebase is organized into various directories:
 The application includes the following routes:
 
 - `/`: The homepage displays a collection of blog posts.
-- `/about`: Information about the author and the website.
-- `/contact`: Contact details and information.
-- `/compose`: A page to add new blog posts.
+- `/about`: Learn about the author and the website.
+- `/contact`: Find contact details and additional information.
+- `/compose`: Create and add new blog posts.
 - `/omission`: View and remove blog posts using their titles.
-- `/posts/:postName`: Displays an individual blog post based on its title.
+- `/posts/:postName`: View individual blog posts based on their titles.
 
 ## Contributing
 
