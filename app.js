@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 // Connect to the MongoDB database
-mongoose.connect("mongodb+srv://blogWebsiteUser:v1JRKfEBqKcq11t3@cluster0.2b8nwl0.mongodb.net/", {
+mongoose.connect(process.env.DB_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
@@ -38,7 +38,7 @@ app.use('/', postRoutes);
 app.use('/', omissionRoutes);
 
 // Start the server
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
