@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -12,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 // Connect to the MongoDB database
-mongoose.connect("mongodb+srv://blogWebsiteUser:v1JRKfEBqKcq11t3@cluster0.2b8nwl0.mongodb.net/", {
+mongoose.connect(process.env.DB_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
