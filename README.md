@@ -1,20 +1,20 @@
 # Dynamic Blog Website
 
-Welcome to the Dynamic Blog Website repository! This project showcases a web application built with Express.js and MongoDB, following the Model-View-Controller (MVC) architecture. It's designed to create, display, and manage blog posts.
+Welcome to the Blog Website repository! This project showcases a web application built with Node.js, Express.js, MongoDB, HTML, and CSS following the Model-View-Controller (MVC) architecture. It's designed to create, display, and manage blog posts.
 
 ## Description
 
-The Dynamic Blog Website is a full-fledged web application that provides users with an interactive platform to explore a collection of blog posts. With a focus on clean code structure and user experience, this project demonstrates the implementation of essential web development concepts.
+The Blog Website is a full-fledged web application that provides users with an interactive platform to explore a collection of blog posts. With a focus on clean code structure and user experience, this project demonstrates the implementation of essential web development concepts.
 
 ### Key Features
 
 - **MVC Architecture**: The project is structured using the Model-View-Controller (MVC) design pattern, which enhances code organization, reusability, and scalability.
 
-- **Express.js Backend**: The backend of the application is built using Express.js, a popular web application framework for Node.js. Express.js facilitates route handling, middleware integration, and RESTful API design.
+- **Node.js and Express.js Backend**: The backend of the application is built using Node.js and Express.js.
 
-- **MongoDB Integration**: MongoDB, a NoSQL database, is seamlessly integrated into the project to store and manage blog post data. The project's models interact with the database to handle data retrieval and manipulation.
+- **MongoDB Integration**: MongoDB database, is integrated into the project to store and manage blog post data.
 
-- **EJS Templating Engine**: EJS (Embedded JavaScript) is used to create dynamic HTML templates. This allows for the dynamic rendering of content and the seamless integration of server-side logic into views.
+- **EJS Templating HTML and CSS**: EJS and CSS are used to create stylish HTML templates.
 
 ### Project Structure
 
@@ -35,7 +35,3 @@ The application includes the following routes:
 - `/compose`: Create and add new blog posts.
 - `/omission`: View and remove blog posts using their titles.
 - `/posts/:postName`: View individual blog posts based on their titles.
-
-## Contributing
-
-Contributions are welcome! Feel free to submit pull requests or report issues in the [Issues](https://github.com/yourusername/dynamic-blog-website/issues) section.
